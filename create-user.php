@@ -1,0 +1,41 @@
+<?php 
+// Starta sessionen
+session_start();
+?>
+
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create User</title>
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+    <!-- Lägg till en app-ikon -->
+    <link rel="icon" href="../bankid/images/bankid-logo-first-screen.png" sizes="192x192">
+    <link rel="apple-touch-icon" href="../bankid/images/bankid-logo-first-screen.png">
+
+    <style>
+        /* Huvudstil för hela sidan */
+        body {
+            background-color: #0C2029;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            text-align: center;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello World</h1>
+</body>
+</html>
